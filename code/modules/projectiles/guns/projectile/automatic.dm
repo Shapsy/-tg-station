@@ -235,3 +235,14 @@
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 1
+
+/obj/item/weapon/gun/projectile/automatic/pdw
+	name = "\improper surplus PDW"
+	desc = "Technically stolen goods, in the same way that breaking into someone's house and taking out their trash is stealing from them. Looks like it it's just as likely to kill the shooter as it is whatever they're aiming at. Uses 9mm rounds."
+	icon_state = "pdw"
+	origin_tech = "combat=5;materials=2"
+	mag_type = /obj/item/ammo_box/magazine/pdw
+	burst_size = 2
+	fire_sound = 'sound/weapons/pdw.ogg'
+	can_suppress = 0
+	fire_delay = 1
