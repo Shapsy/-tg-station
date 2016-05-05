@@ -246,9 +246,3 @@
 	fire_sound = 'sound/weapons/pdw.ogg'
 	can_suppress = 0
 	fire_delay = 1
-
-/obj/item/weapon/gun/projectile/automatic/pdw/update_icon()
-	if(magazine)
-		icon_state = "pdw"
-	else
-		icon_state = "pdw-e"
